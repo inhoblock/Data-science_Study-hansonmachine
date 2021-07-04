@@ -8,7 +8,7 @@ void free_array(int** arr, int size);
 
 int main()
 {
-	int F, P, S;
+	int F, P, S; // F: filter size, P : padding size, S : stride size
 	int** filter;
 	int*** image;
 	int*** convolution_image;
@@ -16,7 +16,7 @@ int main()
 	int** convolution_G;
 	int** convolution_B;
 
-	// [W][W][3] image �ޱ�
+	// [W][W][3] image ¹Þ±â
 
 	// Input F, P, S
 	printf("Enter the size of Filter size F: ");
