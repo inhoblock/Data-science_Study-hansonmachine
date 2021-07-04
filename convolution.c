@@ -16,7 +16,7 @@ int main()
 	int** convolution_G;
 	int** convolution_B;
 
-	// [W][W][3] image ¹Þ±â
+	// [W][W][3] color image input
 
 	// Input F, P, S
 	printf("Enter the size of Filter size F: ");
